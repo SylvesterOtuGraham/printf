@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 int print_HEXA_S(char s, char *output_p, int o_p);
 /**
