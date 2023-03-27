@@ -1,11 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_rot13 - Print rot13
  * @vlist: arguments passed to print
  * @output_p: Host output
  * @o_p: output position
  *
- * Description: Function that print rot13
+ * Description: Fuction that print rot13
  * Return: the int
  */
 int print_rot13(va_list vlist, char *output_p, int o_p)
