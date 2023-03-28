@@ -14,7 +14,7 @@ int print_HEXA_S(char s, char *output_p, int o_p);
 int print_S_string(va_list vlist, char *output_p, int o_p)
 {
 	int x = 0;
-	char *ptr = (char*)(intptr_t)va_arg(vlist, int);
+	char *ptr = va_arg(vlist, int);
 
 		if (!ptr)
 			ptr = NULL;
