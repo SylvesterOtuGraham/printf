@@ -26,7 +26,6 @@ int print_HEXA(va_list vlist, char *output_o, int o_p);
 int print_HEXA_S(char s, char *output_p, int o_p);
 int print_S_string(va_list vlist, char *output_p, int o_p);
 int print_paddress(va_list vlist, char *output_p, int o_p);
-int print_rot13(va_list vlist, char *output_p, int o_p);
 
 typedef struct t_format
 {
